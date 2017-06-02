@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.chinese.blesson1"
+    android:background="@drawable/chineseback">
+
+    <Button
+        android:id="@+id/signop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/signop"
+        android:text="Which of these characters means 'daughter'?"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/i2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="98dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="69dp"
+        android:text="我(wo)"
+        android:layout_below="@+id/signop1"
+        android:layout_alignParentLeft="true"
+        android:textSize="30sp"
+        android:onClick="selector"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:id="@+id/son2"
+        android:onClick="selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="儿子(er-zi)"
+        android:layout_below="@+id/i2"
+        android:layout_alignLeft="@+id/i2"
+        android:layout_alignStart="@+id/i2"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/daughterans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/i2"
+        android:layout_alignStart="@+id/i2"
+        android:layout_below="@+id/son2"
+        android:layout_marginTop="24dp"
+        android:text="女儿(nu-er)"
+        android:onClick="selector"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="你(ni)"
+        android:layout_below="@+id/daughterans"
+        android:layout_alignLeft="@+id/daughterans"
+        android:layout_alignStart="@+id/daughterans"
+        android:textSize="30sp"
+        android:onClick="selector"
+        />
+
+    <Button
+        android:id="@+id/nextpg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="NEXT"
+        android:textSize="30sp"
+        android:onClick="less1pg3"/>
+    <TextView
+        android:id="@+id/display_total2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/you"
+        android:layout_alignRight="@+id/you"
+        android:layout_alignTop="@+id/nextpg2"
+        android:layout_marginTop="17dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="25sp"/>
+</RelativeLayout>

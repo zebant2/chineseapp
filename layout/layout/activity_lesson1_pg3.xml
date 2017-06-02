@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.hp.chinese.blesson1"
+android:background="@drawable/chineseback">
+
+<Button
+    android:id="@+id/signop1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="56dp"
+    android:background="@drawable/signop"
+    android:text="'再见' means : "
+    android:textSize="30sp"
+    android:textColor="#ffffff"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<CheckBox
+    android:id="@+id/hello"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="98dp"
+    android:layout_marginStart="98dp"
+    android:layout_marginTop="69dp"
+    android:text="Hello"
+    android:layout_below="@+id/signop1"
+    android:layout_alignParentLeft="true"
+    android:textSize="30sp"
+    android:onClick="selector"
+    android:layout_alignParentStart="true" />
+
+<CheckBox
+    android:id="@+id/byeans"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="Good Bye"
+    android:layout_below="@+id/hello"
+    android:layout_alignLeft="@+id/hello"
+    android:layout_alignStart="@+id/hello"
+    android:onClick="selector"
+    android:textSize="30sp"/>
+
+<CheckBox
+    android:id="@+id/sorry"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/hello"
+    android:layout_alignStart="@+id/hello"
+    android:layout_below="@+id/byeans"
+    android:layout_marginTop="24dp"
+    android:text="Sorry"
+    android:onClick="selector"
+    android:textSize="30sp"/>
+
+<CheckBox
+    android:id="@+id/thankyou"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="33dp"
+    android:text="Thank you"
+    android:layout_below="@+id/sorry"
+    android:layout_alignLeft="@+id/sorry"
+    android:layout_alignStart="@+id/sorry"
+    android:onClick="selector"
+    android:textSize="30sp"/>
+
+
+<Button
+    android:id="@+id/nextpg4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="15dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:text="NEXT"
+    android:textSize="30sp"
+    android:onClick="less1pg4"/>
+
+<TextView
+    android:id="@+id/display_total3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/thankyou"
+    android:layout_alignRight="@+id/thankyou"
+    android:layout_alignTop="@+id/nextpg4"
+    android:layout_marginTop="17dp"
+    android:text=""
+    android:textColor="#000000"
+    android:textSize="25sp"
+
+    />
+    </RelativeLayout>

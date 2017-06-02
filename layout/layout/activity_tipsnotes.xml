@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.hp.chinese.tipsnotes"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fafa81"
+    tools:context="com.example.hp.chinese.tipsnotes">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good News: No Conjugations!
+Verbs in Chinese never change their form -no matter what the verb, who is doing it, or when it's
+being done. This makes life much easier! Take a look: "
+
+ android:textSize="26sp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+     />
+
+    <ImageView
+        android:id="@+id/basicstble"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/basictable" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Good News: No Articles!
+Articles like 'the' and 'a' appear everywhere. In fact, they are some of the most common words in the English language.
+But do they really do anything? Try saying a few sentences without the articles. It might sound funny, but you'll find
+that it doesn't really change the meaning. In Chinese, there are no articles. For example, whether you want to say 'l am the cat' or
+'I am a cat,' you would use 'wõ shì mão', which directly translates as 'I am cat. This may seem wishy-washy-sometimes it really does
+ matter whether you are the cat or cat, but you can almost always tell from context alone which is the case.
+ The Perfect Translation:
+ You might think some of our translations are a bit clumsy or don't exactly sound like something a native speaker would say. In fact,
+ we try to style the translations (within bounds, of course) so that they are most helpful when learning Chinese, which doesn't always
+  correspond to the most elegant phrasing. For example, ' 我 要喝 一 碗汤 ( wǒ yào hē yī wăn täng)' could translate to 'I want to eat soup,'
+  but given the English alone you might not be able to form the Chinese sentence. 'I want to drink a bowl of soup' may be a bit of an
+ awkward sentence, but it's much more helpful when trying to come up with the Chinese translation. This often comes up with past and
+ future tense, as well. 'On Wednesday I go to the hospital' might seem odd because
+ if Wednesday is in the future, you would probably say 'I will go' rather than 'I go.' But since this is not reflected in the Chinese
+ translation ' 星期三 我 去 医院 ( xingqisan wǒ qù yīyuàn ) ' , we omit the 'will' to make it easier to understand the Chinese sentence
+ structure. How's it hangin? How do Chinese people greet each other? It's actually not as simple as you might think. The obvious answers
+ is ' nihǎo ' , but this is a bit formal , almost always used when you are first meeting someone. An older neighbor might greet you in
+ the morning with ' 你 吃 了 吗 ( ni chi le ma)”?, which literally means 'Have you eaten?' For students and young adults, there's no real
+ equivalent for 'what's up?' Chinese people almost never ask '你 好吗 ( ni hao ma ) ? ' . Instead , friends often greet each other with a
+ simple (hēi)' (a transliteration of 'hey') followed by the person 's name , as in John ! ' Also common are ' 早上 好 ( zǎoshàng hao, good morning)
+' and ' 晚上 好 ( wǎnshàng hao , good evening)', depending on the time of day."
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
+</ScrollView>
